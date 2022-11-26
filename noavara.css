@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "iransans";
+    src: url("fonts/IRAN\ Sans\ Regular.woff") format("woff");
+    src: url("fonts/IRAN\ Sans\ Regular.woff2") format("woff2");
+}
+p{
+    font-family: "iransans";
+    direction: rtl;
+    color: white;
+    font-size: 20px;
+}
+body{
+    background: #0072b1;
+}
+
+.logo-desc{
+    text-align: center;
+    font-family: "iransans";
+    font-size: 30px;
+    color: white;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.wrapper-item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.col-item{
+    text-align: right;
+    font-family: "iransans";
+}
+.wrapper-item{
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 8px;
+}
